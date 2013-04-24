@@ -156,6 +156,7 @@ $ git clone {insert repo url}
 
 <security-constraint>
   <web-resource-collection>
+  	<web-resource-name>Logging</web-resource-name>
     <url-pattern>/logging/*</url-pattern>
   </web-resource-collection>
   <auth-constraint>
